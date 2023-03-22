@@ -155,7 +155,7 @@ p {
 }
 
 .bg-likes {
-  fill: red;
+  fill: #008cba;
   color: yellow;
   stroke: #008cba;
 }
