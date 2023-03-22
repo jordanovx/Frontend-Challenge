@@ -1,0 +1,161 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  font-size: 12px;
+}
+
+.container {
+  display: flex;
+  /* height: 100vh; */
+}
+
+.sidebar {
+  background: #ffffff;
+  margin: 15px;
+  width: 340px;
+}
+
+.preview {
+  background: #f9fafd;
+  width: 100%;
+}
+
+.layout-placeholder {
+  color: #464b5b;
+  font-size: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.accordion {
+  background: #e6ebff;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.accordion-title {
+  color: #0033ff;
+  font-weight: 800;
+  font-size: 18px;
+  margin: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+input {
+  box-sizing: border-box;
+}
+
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #d6dae4;
+  border-radius: 3px;
+  padding: 6px 12px;
+  height: 38px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  margin: 0;
+  width: 15px;
+  height: 15px;
+}
+
+.radio-select {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.card {
+  width: min-content;
+  height: auto;
+  background: #fff;
+  border: 1px solid #dfdfdf;
+  color: black;
+  margin: 15px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  margin: 15px 0;
+  height: 2px;
+  background: #f0f0f0;
+  border-style: none;
+}
+
+.card-profile {
+  display: flex;
+  align-items: center;
+}
+
+.card-username {
+  padding-left: 15px;
+}
+
+.card-username h3,
+p {
+  margin: 0;
+}
+
+.card-profile img:nth-child(3) {
+  margin-left: auto;
+}
+
+.profile-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+
+.card-img {
+  width: 300px;
+  height: 200px;
+  margin: 15px 0;
+}
+
+.btnLoad {
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.bg-likes {
+  fill: red;
+  color: yellow;
+  stroke: #008cba;
+}
