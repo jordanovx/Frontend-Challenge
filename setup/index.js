@@ -51,6 +51,7 @@ for (const like of likes) {
   });
 }
 
+//Load More Button +4
 const loadMore = document.querySelector(".load-more");
 
 let currentItems = 4;
