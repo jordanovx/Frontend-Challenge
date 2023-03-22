@@ -139,9 +139,7 @@ p {
   margin: 15px 0;
 }
 
-.btnLoad {
-  margin: 0 auto;
-  justify-content: center;
+.load-more {
   background-color: #008cba;
   border: none;
   color: white;
@@ -152,10 +150,16 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+  left: 50%;
+  position: relative;
 }
 
 .bg-likes {
   fill: #008cba;
   color: yellow;
   stroke: #008cba;
+}
+
+.card:nth-child(4) ~ .card {
+  display: none;
 }

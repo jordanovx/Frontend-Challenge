@@ -47,7 +47,22 @@ const likes = document.querySelectorAll(".likesbtn");
 
 for (const like of likes) {
   like.addEventListener("click", function handleClick() {
-    console.log(like);
     like.classList.add("bg-likes");
   });
 }
+
+const loadMore = document.querySelector(".load-more");
+
+let currentItems = 4;
+
+loadMore.addEventListener("click", (e) => {
+  const elementList = [...document.querySelectorAll(".card")];
+
+  for (let i = currentItems; i < currentItems + 4; i++)
+    setTimeout(function () {
+      if (elementList[i]) {
+        elementList[i].style.display = "flex";
+      }
+    }, 3000);
+  currentItems += 4;
+});
